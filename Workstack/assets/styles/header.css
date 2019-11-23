@@ -1,0 +1,40 @@
+header{
+    background-image: url(../images/color-splash.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0;
+    color: white;
+    position: absolute;
+    font-family: Avenir LT Std; 
+    width: 100vw;
+}
+
+.header__header--one{
+    font-size: 75px;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    font-weight: lighter;
+    margin-bottom: 0px;
+}
+
+.header__text{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    margin-top: 0px;
+}
+
+.header__button--one{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    background-color: #09de8b;
+    border: #09de8b solid 1px;
+    padding: 15px 35px;
+    font-family: Avenir LT Std;
+    color: white;
+    font-size: 19px;
+    border-radius: 8px;
+}
+
