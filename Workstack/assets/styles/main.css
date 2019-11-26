@@ -1,0 +1,198 @@
+main{
+    font-family: Avenir LT Std;
+    text-align: center;
+}
+
+.main__header--one{
+    color: #505064;
+    font-size: 43px;
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    margin-bottom: 0px;
+}
+
+.main__text--one{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: #b1b5be;
+    margin-top: 10px;
+}
+
+.main__one--offer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 35px;
+    color: #b7c0c6;
+    text-align: center;
+}
+
+.break{
+    flex-basis: 100%;
+}
+
+.main__one--team{
+    margin: 0px 130px 100px 0px;
+}
+
+.main__one--list{
+    margin: 0px 130px 100px 0px;
+}
+
+.main__one--budget{
+    margin: 0px 130px 100px 0px;
+}
+
+.teamcalendar{
+    color: #565b67 !important;
+    max-width: 100px;
+    margin: auto;
+    border-bottom: solid #b7c0c6 1px;
+    padding-bottom: 18px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size: 20px;
+}
+
+.tasklist{
+    color: #565b67 !important;
+    max-width: 50px;
+    margin: auto;
+    border-bottom: solid #b7c0c6 1px;
+    padding-bottom: 18px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.projectbudget{
+    color: #565b67 !important;
+    max-width: 100px;
+    margin: auto;
+    border-bottom: solid #b7c0c6 1px;
+    padding-bottom: 18px;
+    padding-left: 13px;
+    padding-right: 13px;
+    font-size: 20px;
+    margin-top: 6px;
+}
+
+.mettingsvacations{
+    color: #565b67 !important;
+    max-width: 120px;
+    margin: auto;
+    border-bottom: solid #b7c0c6 1px;
+    padding-bottom: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+.calendarimg{
+    margin-top: -3px;
+}
+
+.main__one--time{
+    margin: 5px 130px 100px 0px;
+}
+
+.main__one--plans{
+    margin: 0px 130px 100px 0px;
+}
+
+.main__one--reports{
+    margin: 0px 130px 100px 0px;
+}
+
+.timetracking{
+    color: #565b67 !important;
+    max-width: 120px;
+    margin: auto;
+    border-bottom: solid #b7c0c6 1px;
+    padding-bottom: 18px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-size: 20px;
+}
+
+.projectplans{
+    color: #565b67 !important;
+    max-width: 80px;
+    margin: auto;
+    border-bottom: solid #b7c0c6 1px;
+    padding-bottom: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+}
+
+.projectreports{
+    color: #565b67 !important;
+    max-width: 80px;
+    margin: auto;
+    border-bottom: solid #b7c0c6 1px;
+    padding-bottom: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+    margin-top: -2px;
+}
+
+.integrations{
+    color: #565b67 !important;
+    max-width: 120px;
+    margin: auto;
+    border-bottom: solid #b7c0c6 1px;
+    padding-bottom: 18px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size: 20px;
+}
+
+.chargerimg{
+    margin-top: 6px;
+}
+
+.main__section--two{
+    background-image: url(../images/halfofcolorsplash.png);
+    background-size: cover;
+    color: white;
+    height: 475px;
+    display: flex;
+    justify-content: center;
+}
+
+.main__two--heading{
+    font-size: 40px;
+    margin: 0px;
+}
+
+.main__two--img{
+    max-width: 1680px;
+    max-height: 600px;
+    position: absolute;
+}
+
+.main__two--trial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    max-width: 400px;
+    flex-wrap: wrap;
+}
+
+.main__two--button{
+    background-color: #09de8b;
+    border: #09de8b solid 1px;
+    padding: 15px 35px;
+    font-family: Avenir LT Std;
+    color: white;
+    font-size: 19px;
+    border-radius: 8px;
+    margin-top: 15px;
+}

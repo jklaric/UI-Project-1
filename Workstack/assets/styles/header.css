@@ -1,12 +1,14 @@
 header{
     background-image: url(../images/color-splash.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
-    margin: 0;
+    background-size: cover;
+    margin: 0px;
     color: white;
-    position: absolute;
     font-family: Avenir LT Std; 
     width: 100vw;
+    display: flex;
+    justify-content: center;
+    
 }
 
 .header__header--one{
@@ -38,3 +40,11 @@ header{
     border-radius: 8px;
 }
 
+.header__image--one{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 80px;
+    max-width: 1250px;
+    max-height: 1000px;
+}
