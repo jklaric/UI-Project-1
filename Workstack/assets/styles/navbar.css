@@ -1,55 +1,67 @@
-.nav__links{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-    font-family: Avenir LT Std;
+.nav__links {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  font-size: 16.5px;
+  font-size: 1em;
+  padding: auto;
+  font-weight: 500;
 }
 
-.nav__links--logo{
-    display: flex;
-    justify-content: flex-start;
-    max-width: 260px;
-    max-height: 27px;
-    margin: 43px;
+.nav__links--logo {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 260px;
+  max-height: 27px;
+  margin: 42px;
+  margin-left: 55px;
 }
 
-.nav__links--buttons{
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-start;
+.nav__links--buttons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin-right: 10px;
 }
 
-.nav__links--register{
-    margin: 45px 45px 0px 0px;
-    padding: 10px 23px;
-    border: solid 2px;
-    border-radius: 3px;
-    background-color: transparent;
-    color: #09de8b;
+.nav__links--register {
+  margin: 41px 44px 0px 0px;
+  border: solid 2px;
+  border-radius: 3px;
+  background-color: transparent;
+  color: #09de8b;
+  font-size: 1em;
+  padding: 0.53em 1em 0.53em 1em;
 }
 
-.nav__links--login{
-    margin: 45px 20px 0px 0px;
-    padding: 10px 23px;
-    border: solid 2px;
-    border-radius: 3px;
-    background-color: transparent;
-    color: #00baeb;
+.nav__links--login {
+  margin: 41px 21px 0px 0px;
+  padding: 0.53em 1em 0.53em 1em;
+  border: solid 2px;
+  border-radius: 3px;
+  background-color: transparent;
+  color: #00baeb;
+  font-size: 1em;
 }
 
-.nav__links--contact{
-    margin: 55px 40px 0px 0px;
+.nav__links--contact {
+  margin: 51px 41px 0px 0px;
+  padding-bottom: 10px;
 }
 
-.nav__links--pricing{
-    margin: 55px 40px 0px 0px;
+.nav__links--pricing {
+  margin: 51px 41px 0px 0px;
+  padding-bottom: 10px;
 }
 
-.nav__links--features{
-    margin: 55px 40px 0px 0px;
+.nav__links--features {
+  margin: 51px 41px 0px 0px;
+  padding-bottom: 10px;
 }
 
-.nav__links--home{
-    margin: 55px 40px 0px 0px;
+.nav__links--home {
+  margin: 51px 41px 0px 0px;
+  border-bottom: #00baeb solid 2px;
+  border-radius: 3px;
+  padding-bottom: 10px;
 }
-

@@ -1,49 +1,129 @@
-header{
-    background-image: url(../images/color-splash.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0px;
-    color: white;
-    font-family: Avenir LT Std; 
-    display: flex;
-    justify-content: center;
-    
+header {
+  background-image: url(assets\images\bg-grid-faded.png);
+  background-repeat: repeat;
+  background-size: cover;
+  background-blend-mode: normal;
+  margin: 0px;
+  color: white;
+  font-family: Avenir LT Std;
+  display: flex;
+  justify-content: center;
 }
 
-.header__header--one{
-    font-size: 75px;
-    display: flex;
-    justify-content: center;
-    margin-top: 200px;
-    font-weight: lighter;
-    margin-bottom: 0px;
+.header__image {
+  position: absolute;
+  z-index: -50;
+  width: 100vw;
+  margin: auto;
+  display: flex;
+  justify-content: start;
+  left: -16.57px;
 }
 
-.header__text{
-    display: flex;
-    justify-content: center;
-    font-size: 25px;
-    margin-top: 0px;
+.header__header--one {
+  font-size: 75px;
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+  font-weight: lighter;
+  margin-bottom: 0px;
 }
 
-.header__button--one{
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    background-color: #09de8b;
-    border: #09de8b solid 1px;
-    padding: 15px 35px;
-    font-family: Avenir LT Std;
-    color: white;
-    font-size: 19px;
-    border-radius: 8px;
+.header__text {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  margin-top: 0px;
 }
 
-.header__image--one{
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    margin-top: 80px;
-    max-width: 1250px;
-    max-height: 1000px;
+.header__button--one {
+  display: flex;
+  justify-content: center;
+  margin: 30px auto auto auto;
+  background-color: #09de8b;
+  border: #09de8b solid 1px;
+  padding: 15px 35px;
+  font-family: Avenir LT Std;
+  color: white;
+  font-size: 19px;
+  border-radius: 8px;
+}
+
+.mac__screen {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  border-radius: 30px;
+  display: block;
+  margin: 4.5em auto auto auto;
+  padding: 3% 3% 3.4% 3%;
+  padding: 40px;
+  background: linear-gradient(45deg, #0a0a0a 0%, #323232 100%);
+  border: 4px solid #464749;
+  box-shadow: 0 0 0 2px #88898b;
+  overflow: visible;
+  z-index: 1;
+}
+
+.mac__screen--video {
+  width: 1200px;
+  height: 650px;
+}
+
+.mac__keyboard {
+  margin-top: -1.5%;
+}
+
+.mac__keyboard--background {
+  width: 78%;
+  height: 4.5%;
+  background: linear-gradient(180deg, #bbbcc0 0%, #d1d3d8 100%);
+  margin-left: -5.2%;
+  position: absolute;
+  z-index: 1;
+  display: block;
+  border-bottom-left-radius: 30%;
+  border-bottom-right-radius: 30%;
+  text-align: center;
+  overflow: hidden;
+}
+
+.mac__keyboard--detail {
+  width: 78%;
+  height: 3%;
+  background: linear-gradient(
+    90deg,
+    #27282c 0%,
+    #a9aaae 1%,
+    #3e3f43 4%,
+    #8e8f93 15%,
+    #8e8f93 85%,
+    #3e3f43 96%,
+    #a9aaae 99%,
+    #27282c 100%
+  );
+  margin-top: 0;
+  margin-left: -5.2%;
+  position: absolute;
+  z-index: 2;
+  display: block;
+  text-align: center;
+}
+
+.mac__keyboard--groove {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background: linear-gradient(
+    90deg,
+    #2d3134 0%,
+    #747579 20%,
+    #747579 80%,
+    #2d3134 100%
+  );
+  width: 15%;
+  height: 2%;
+  margin: 0 auto 0 auto;
+  position: absolute;
+  z-index: 3;
+  margin-left: 26%;
 }
